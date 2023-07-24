@@ -1,0 +1,54 @@
+a{
+  color:rgb(75, 75, 75);
+}
+
+.Intro img{
+  width:12em;
+  margin-right:3em;
+  filter:invert(100%);
+  transition: transform 0.5s;
+}
+
+.Intro h1{
+  color:white;
+  font-weight:900;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform:uppercase;
+}
+
+.Buttons button{
+  font-size:1.7rem;
+  margin: 0 3em;
+}
+
+.Search input{
+  color:white;
+}
+
+.character-url a{
+  margin-left:0.2em;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.Intro img:hover{
+  transform:scale(1.1);
+}
+
+.Intro, .Buttons{
+  display:flex;
+  justify-content:center;
+  margin-top:3em;
+  margin-bottom:3em;
+}
+
+.card-reveal-content{
+  display:flex;
+  justify-content:space-around;
+}
+
+.character-url{
+  display:flex;
+}
