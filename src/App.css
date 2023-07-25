@@ -44,6 +44,15 @@ a:hover{
   margin-bottom:3em;
 }
 
+.Info{
+  color:white;
+  text-align:center;
+}
+
+.Buttons-Responsive{
+  display:none;
+}
+
 .card-reveal-content{
   display:flex;
   justify-content:space-around;
@@ -51,4 +60,101 @@ a:hover{
 
 .character-url{
   display:flex;
+}
+
+@media(max-width:1055px){
+  .Buttons button{
+    margin:0 2.8em;
+  }
+}
+
+@media(max-width:1024px){
+  .Buttons button{
+    font-size:1.5rem;
+    margin:0 2.5em;
+  }
+  .Info{
+    font-size:1.3rem;
+    width:70%;
+    margin:0 auto;
+  }
+}
+
+@media(max-width:860px){
+  .Buttons button{
+    margin:0 2em;
+  }
+}
+
+@media(max-width:768px){
+  .Buttons button{
+    margin:0 1.5em;
+  }
+}
+
+@media(max-width:670px){
+  .Buttons button{
+    margin:0 1em;
+  }
+}
+
+@media(max-width:600px){
+  .Buttons button{
+    margin:0 0.5em;
+  }
+}
+
+@media(max-width:520px){
+  .Intro img{
+    margin-right:0;
+  }
+  .Intro h1{
+    font-weight:400;
+    font-size:2.5rem;
+  }
+  .Buttons-Responsive button{
+    font-size:1.3rem;
+    margin:0 0.5em;
+  }
+  .Buttons{
+    display:none;
+  }
+  .Buttons-Responsive{
+    display:flex;
+    justify-content:center;
+    margin-top:3em;
+    margin-bottom:3em;
+  }
+  .Intro{
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:1em;
+  }
+  .Info{
+    font-size:1rem;
+    margin-bottom:3em;
+  }
+}
+
+@media(max-width:420px){
+  .Buttons-Responsive button{
+    font-size:1.2rem;
+    margin:0 0.4em;
+  }
+}
+
+@media(max-width:400px){
+  .Buttons-Responsive button{
+    font-size:1.1rem;
+    margin:0 0.3em;
+  }
+  .card-content span{
+    font-size:200px;
+  }
+  .character-url p, .character-url a{
+    font-size:0.9rem;
+  }
+  .card-reveal-content p{
+    font-size:0.7rem;
+  }
 }
